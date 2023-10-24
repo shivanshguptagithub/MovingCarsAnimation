@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    padding: o;
+    overflow: hidden;
+    touch-action: none;
+}
+
+.container {
+    position: relative;
+}
+
+img {
+    position: absolute;
+}
+
+#background {
+    width: 300vw;
+    height: 30vw;
+    animation-direction: left;
+}
+
+
+#trees {
+    width: 300vw;
+    height: 32vw;
+    top: 0vw;
+    animation-direction: left;
+}
+
+
+#track {
+    width: 300vw;
+    height:14vw;
+    top: 31.2vw;
+    animation-direction: left;
+    background-image: url('track.png');
+    background-repeat: repeat-x;
+    position: absolute;
+}
+
+@keyframes myfirst {
+    100% {
+        transform: translateX(-100vw);
+    }
+}
+#carBody {
+    width: 20vw;
+    top: 28.5vw;
+    left: 20vw;
+}
+#carWheelLeft {
+    width: 3.7vw;
+    top: 30.7vw;
+    left: 22.4vw;
+}
+#carWheelRight {
+    width: 3.7vw;
+    top: 30.8vw;
+    left: 32.5vw;
+}
+
+#carBody2 {
+    width: 20vw;
+    top: 33.5vw;
+    left: 5vw;
+}
+#carWheelLeft2 {
+    width: 3.7vw;
+    top: 35.7vw;
+    left: 7.4vw;
+}
+#carWheelRight2 {
+    width: 3.7vw;
+    top: 35.8vw;
+    left: 17.5vw;
+}
+
+#carBody3 {
+    width: 20vw;
+    top: 26.5vw;
+    left: 60vw;
+}
+#carWheelLeft3 {
+    width: 3.7vw;
+    top: 28.7vw;
+    left: 62.4vw;
+}
+#carWheelRight3 {
+    width: 3.7vw;
+    top: 28.8vw;
+    left: 72.5vw;
+}
+
+#carBody4 {
+    width: 20vw;
+    top: 35.5vw;
+    left: 55vw;
+}
+#carWheelLeft4 {
+    width: 3.7vw;
+    top: 37.7vw;
+    left: 57.4vw;
+}
+#carWheelRight4 {
+    width: 3.7vw;
+    top: 37.8vw;
+    left: 67.5vw;
+}
+@media only screen and (max-width:600px) {
+    #background {
+        height: 100vh;
+    }
+    #trees {
+        height: 70vh;
+    }
+    #track {
+        height:20vh;
+        top: 70vh;
+    }
+    #carBody {
+        width: 20vw;
+        top: 70vh;
+        left: 20vw;
+    }
+    #carWheelLeft {
+        width: 3.7vw;
+        top: 71.1vh;
+        left: 22.4vw;
+    }
+    #carWheelRight {
+        width: 3.7vw;
+        top: 71.1vh;
+        left: 32.5vw;
+    }
+    
+    #carBody2 {
+        width: 20vw;
+        top: 75vh;
+        left: 5vw;
+    }
+    #carWheelLeft2 {
+        width: 3.7vw;
+        top: 76vh;
+        left: 7.4vw;
+    }
+    #carWheelRight2 {
+        width: 3.7vw;
+        top: 76vh;
+        left: 17.5vw;
+    }
+    
+    #carBody3 {
+        width: 20vw;
+        top: 68vh;
+        left: 60vw;
+    }
+    #carWheelLeft3 {
+        width: 3.7vw;
+        top: 69vh;
+        left: 62.4vw;
+    }
+    #carWheelRight3 {
+        width: 3.7vw;
+        top: 69vh;
+        left: 72.5vw;
+    }
+    
+    #carBody4 {
+        width: 20vw;
+        top: 78vh;
+        left: 55vw;
+    }
+    #carWheelLeft4 {
+        width: 3.7vw;
+        top: 79vh;
+        left: 57.4vw;
+    }
+    #carWheelRight4 {
+        width: 3.7vw;
+        top: 79vh;
+        left: 67.5vw;
+    }
+    
+}
